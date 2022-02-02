@@ -105,7 +105,7 @@ $password=$_GET['password'];
         <div class="project-item">
           <div class="project-info">
             <h1>COUNTRIES</h1>
-            <?php  echo "<a href='country.html?user_id=$user_id & password=$password' target=' blank' type='button' class='cta'>VIEW</a>";?>
+            <?php  echo "<a href='../country.html?user_id=$user_id & password=$password' target=' blank' type='button' class='cta'>VIEW</a>";?>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -114,7 +114,7 @@ $password=$_GET['password'];
         <div class="project-item">
           <div class="project-info">
             <h1>MOTIVATIONAL SPEAKERS</h1>
-            <?php  echo "<a href='/se2/index.html?user_id=$user_id & password=$password' target=' blank' type='button' class='cta'>VIEW</a>";?>
+            <?php  echo "<a href='../se2/index.html?user_id=$user_id & password=$password' target=' blank' type='button' class='cta'>VIEW</a>";?>
           </div>
           <div class="project-img">
             <img src="./img/world_map.png" alt="img">
