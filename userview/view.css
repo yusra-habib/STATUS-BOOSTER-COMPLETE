@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --default-text-color: white;
+  --default-border-color: white;
+  --hover-background: rgba(220, 20, 60, 0.699) 0px 48px 100px 0px;
+  --hover-color: crimson;
+}
+
+
+span {
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  background-color: black;
+}
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
+
+
+.job-label {
+  border: 1px solid transparent;
+  border-radius: 1.1rem;
+  margin: 2rem;
+  padding: 1.5rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--default-text-color);
+}
+
+.job-title {
+  color: var(--default-text-color);
+}
+
+
+.card-container {
+  border: 1px solid var(--default-border-color);
+  border-radius: 1.1rem;
+  max-width: 350px;
+  height: 150px;
+  margin: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: 300ms linear all;
+}
+
+.card-container:hover,
+.card-container:focus,
+.card-container:active {
+  background-color: crimson;
+  border-color: crimson;
+  box-shadow: rgba(220, 20, 60, 0.699) 0px 48px 100px 0px;
+}
+
+
+.showcase {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 710px) {
+  .showcase {
+    flex-direction: column;
+  }
+}
+
+
