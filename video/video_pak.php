@@ -12,12 +12,12 @@ include_once"db.php";
   <title>Document</title>
 </head>
 <body>
- <!-- Header -->
- <section id="header">
+  <!-- Header -->
+  <section id="header">
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="../adminview/index.html">
+          <a href="http://127.0.0.1:5500/adminview/index.html">
             <h1><span>S</span>tatus <span>B</span>ooster</h1>
           </a>
         </div>
@@ -26,7 +26,7 @@ include_once"db.php";
             <div class="bar"></div>
           </div>
           <ul>
-            <li><a href="/adminview/index.html"  data-after="Home">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/adminview/index.html"  data-after="Home">Home</a></li>
 
             <li><a href="http://localhost/seproject/STATUS%20BOOSTER/single_page_web/video/videos_com.php" target=" blank" data-after="Projects">Videos</a></li>
 
@@ -34,11 +34,11 @@ include_once"db.php";
 
             <li><a href="http://localhost/seproject/STATUS%20BOOSTER/single_page_web/gallery/blogs_com.php" target=" blank" data-after="Projects">Quotes</a></li>
 
-            <li><a href="../country.html" target=" blank" data-after="Contact">Countries</a></li>
+            <li><a href="http://127.0.0.1:5500/adminview/country.html" target=" blank" data-after="Contact">Countries</a></li>
 
-            <li><a href="../timer/index.html" target=" blank" data-after="Contact">Timer</a></li>
+            <li><a href="http://127.0.0.1:5500/adminview/timer/index.html" target=" blank" data-after="Contact">Timer</a></li>
 
-            <li><a href="../adminview/admin_dashboard.html"   data-after="User">User</a></li>
+            <li><a href="http://127.0.0.1:5500/adminview/admin_dashboard.html"   data-after="User">User</a></li>
           </ul>
         </div>
       </div>
